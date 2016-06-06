@@ -17,9 +17,8 @@ public class Set extends AbstractCollection {
 		if (readOnly)
 			return;
 
-		if (shouldGrow()) {
+		if (shouldGrow())
 			grow();
-		}
 
 		addElement(element);
 

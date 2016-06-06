@@ -14,7 +14,7 @@ public class List extends AbstractCollection {
 			return;
 		
 		if (shouldGrow())
-				grow();
+			grow();
 			
 		addElement(element);
 	}
