@@ -1,6 +1,6 @@
 package com.nts.cleancode.collections;
 
-public class List extends AbstractList {
+public class List extends AbstractCollection {
 	private Object[] elements = new Object[10];
 	private int size = 0;
 	private boolean readOnly;
